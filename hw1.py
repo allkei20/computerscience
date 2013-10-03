@@ -22,8 +22,11 @@ a = 1
 b = -5.86
 c = 8.5408
 
-root1 = -b + math.sqrt
+root1 = ( -b + math.sqrt( b ** 2 - 4*a*c )) / 2*a
+root2 = ( -b - math.sqrt( b ** 2 - 4*a*c )) / 2*a
 
+print root1
+print root2
 
 ###
 ### Problem 2
@@ -31,8 +34,14 @@ root1 = -b + math.sqrt
 
 print "Problem 2 solution follows:"
 
-# ... write your code and comments here (and remove this line)
+import hw1_test
 
+print str(hw1_test.a) 
+print str(hw1_test.b)
+print str(hw1_test.c)
+print str(hw1_test.d)
+print str(hw1_test.e)
+print str(hw1_test.d)
 
 ###
 ### Problem 3
