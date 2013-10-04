@@ -49,7 +49,7 @@ print str(hw1_test.d)
 
 print "Problem 3 solution follows:"
 
-# ... write your code and comments here (and remove this line)
+print '((', hw1_test.a, 'and', hw1_test.b, ' ) or ( not ', hw1_test.c, ') and not (', hw1_test.d, ' or ', hw1_test.e, ' or ', hw1_test.f, '))'
 
 
 ###
