@@ -1,0 +1,9 @@
+Name: Cody Swearingen
+Login: swecod03
+
+2/3
+
+Nice form! More variables would be nice for better ease of access to the test module.
+You were so close with the last problem! I actually attempted to reach the solution
+that you did first, but then asked Paul what the correct answer format was.
+I over analyzed it as well.
