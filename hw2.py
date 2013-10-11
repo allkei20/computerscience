@@ -63,7 +63,13 @@ print "Triangular number", n, "via formula:", n*(n+1)/2
 # DO NOT CHANGE THE FOLLOWING LINE
 print "Problem 4 solution follows:"
 
-# ... write your code and comments here (and remove this line)
+n = 10
+factorial = 1
+
+for f in range(n):
+    factorial = (f+1) * factorial
+    
+print factorial
 
 ###
 ### Problem 5
@@ -72,7 +78,14 @@ print "Problem 4 solution follows:"
 # DO NOT CHANGE THE FOLLOWING LINE
 print "Problem 5 solution follows:"
 
-# ... write your code and comments here (and remove this line)
+numlines = 10
+
+for s in range(numlines):
+    p = numlines - s
+    factorial2 = 1
+    for q in range(p):
+        factorial2 = (q+1) * factorial2
+    print factorial2
 
 ###
 ### Problem 6
@@ -81,7 +94,17 @@ print "Problem 5 solution follows:"
 # DO NOT CHANGE THE FOLLOWING LINE
 print "Problem 6 solution follows:"
 
-# ... write your code and comments here (and remove this line)
+numlines = 10
+sumofrec = 1
+
+for s in range(numlines):
+    p = numlines - s
+    factorial2 = 1
+    for q in range(p):
+        factorial2 = (q+1) * factorial2
+    factorial2 = 1.0 / factorial2
+    sumofrec = factorial2 + sumofrec
+print sumofrec
 
 ###
 ### Collaboration
