@@ -1,5 +1,5 @@
-Name: ...
-Evergreen Login: ...
+Name: Keir Allison-Bourne
+Evergreen Login: allkei20
 Computer Science Foundations
 Programming as a Way of Life
 Fall 2013
