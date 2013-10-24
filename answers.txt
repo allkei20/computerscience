@@ -19,20 +19,24 @@ Problem 1:
 
 Problem 2:
 
-...
+GC Content: 0.3
 
 Problem 3:
 
-...
+There is an empty line above the output.
+If you remove the line gc_count = 0 then an error will appear stating 
+that gc_count was not defined. 
 
 Problem 4:
 
-...
+AT-content: 0.568993851852
 
 Collaboration:
 
-...
+no help needed
 
 Reflection:
 
-...
+I learned about reading in files to a program and subsequently analysing those
+files. I wish I had not been as easily intimidated by the idea of reading in 
+files as input because it turned out to actually be very easy.
