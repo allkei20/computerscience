@@ -125,5 +125,5 @@ if ( gc_content < .4 ):
     print 'GC classification: Low GC content'
 if ( gc_content > .6 ):
     print 'GC classification: High GC content'
-if ( .4 < gc_content < .6 ):
+else:
     print 'GC classification: Moderate GC content'
