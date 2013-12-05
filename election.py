@@ -57,12 +57,13 @@ def most_recent_poll_row(poll_rows, pollster, state):
     Given a list of poll data rows, returns the most recent row with the
     specified pollster and state. If no such row exists, returns None.
     """
-    most_recent = poll_rows[0]
+    most_recent = {}
     for x in poll_rows:
-        one = poll_rows[x]
-        two = poll_rows[x+1]
-        if (earlier_date(one["Date"],two["Date"])):
-            most_recent = one
+        date1 = x["Date"]
+        date2 = most_recent["Date"]
+        if (earlier_date(date1, date2)):
+            most_recent = date1
+    return most_recent
     
 
 
